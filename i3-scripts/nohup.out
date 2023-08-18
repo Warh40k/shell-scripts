@@ -1,0 +1,1142 @@
+2021-09-12 18:16:32 Unrecognized option or missing or extra parameter(s) in /home/nikita/docs/stuff/freerun.ovpn:13: block-outside-dns (2.5.3)
+2021-09-12 18:16:32 DEPRECATED OPTION: --cipher set to 'AES-256-CBC' but missing in --data-ciphers (AES-256-GCM:AES-128-GCM). Future OpenVPN version will ignore --cipher for cipher negotiations. Add 'AES-256-CBC' to --data-ciphers or change --cipher 'AES-256-CBC' to --data-ciphers-fallback 'AES-256-CBC' to silence this warning.
+2021-09-12 18:16:32 OpenVPN 2.5.3 [git:makepkg/ecaf88f8a4e75856+] x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Jun 18 2021
+2021-09-12 18:16:32 library versions: OpenSSL 1.1.1l  24 Aug 2021, LZO 2.10
+2021-09-12 18:16:32 Outgoing Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:16:32 Outgoing Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:16:32 Incoming Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:16:32 Incoming Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:16:32 TCP/UDP: Preserving recently used remote address: [AF_INET]95.216.20.142:20106
+2021-09-12 18:16:32 Socket Buffers: R=[212992->212992] S=[212992->212992]
+2021-09-12 18:16:32 UDP link local: (not bound)
+2021-09-12 18:16:32 UDP link remote: [AF_INET]95.216.20.142:20106
+2021-09-12 18:16:32 TLS: Initial packet from [AF_INET]95.216.20.142:20106, sid=29b60a44 4dd3681b
+2021-09-12 18:16:32 VERIFY OK: depth=1, CN=ChangeMe
+2021-09-12 18:16:32 VERIFY KU OK
+2021-09-12 18:16:32 Validating certificate extended key usage
+2021-09-12 18:16:32 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+2021-09-12 18:16:32 VERIFY EKU OK
+2021-09-12 18:16:32 VERIFY OK: depth=0, CN=server
+2021-09-12 18:16:32 Control Channel: TLSv1.2, cipher TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384, peer certificate: 2048 bit RSA, signature: RSA-SHA256
+2021-09-12 18:16:32 [server] Peer Connection Initiated with [AF_INET]95.216.20.142:20106
+2021-09-12 18:16:33 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+2021-09-12 18:16:33 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 ipv6 bypass-dhcp,dhcp-option DNS 1.1.1.1,dhcp-option DNS 1.0.0.1,tun-ipv6,route-gateway 10.8.0.1,topology subnet,ping 10,ping-restart 120,ifconfig-ipv6 fddd:1194:1194:1194::1000/64 fddd:1194:1194:1194::1,ifconfig 10.8.0.2 255.255.255.0,peer-id 0,cipher AES-256-GCM'
+2021-09-12 18:16:33 OPTIONS IMPORT: timers and/or timeouts modified
+2021-09-12 18:16:33 OPTIONS IMPORT: --ifconfig/up options modified
+2021-09-12 18:16:33 OPTIONS IMPORT: route options modified
+2021-09-12 18:16:33 OPTIONS IMPORT: route-related options modified
+2021-09-12 18:16:33 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+2021-09-12 18:16:33 OPTIONS IMPORT: peer-id set
+2021-09-12 18:16:33 OPTIONS IMPORT: adjusting link_mtu to 1624
+2021-09-12 18:16:33 OPTIONS IMPORT: data channel crypto options modified
+2021-09-12 18:16:33 Data Channel: using negotiated cipher 'AES-256-GCM'
+2021-09-12 18:16:33 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:16:33 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:16:33 net_route_v4_best_gw query: dst 0.0.0.0
+2021-09-12 18:16:33 net_route_v4_best_gw result: via 192.168.1.1 dev enp7s0
+2021-09-12 18:16:33 ROUTE_GATEWAY 192.168.1.1/255.255.255.0 IFACE=enp7s0 HWADDR=70:85:c2:3c:6a:56
+2021-09-12 18:16:33 GDG6: remote_host_ipv6=n/a
+2021-09-12 18:16:33 net_route_v6_best_gw query: dst ::
+2021-09-12 18:16:33 sitnl_send: rtnl: generic error (-101): Network is unreachable
+2021-09-12 18:16:33 ROUTE6: default_gateway=UNDEF
+2021-09-12 18:16:33 TUN/TAP device tun0 opened
+2021-09-12 18:16:33 net_iface_mtu_set: mtu 1500 for tun0
+2021-09-12 18:16:33 net_iface_up: set tun0 up
+2021-09-12 18:16:33 net_addr_v4_add: 10.8.0.2/24 dev tun0
+2021-09-12 18:16:33 net_iface_mtu_set: mtu 1500 for tun0
+2021-09-12 18:16:33 net_iface_up: set tun0 up
+2021-09-12 18:16:33 net_addr_v6_add: fddd:1194:1194:1194::1000/64 dev tun0
+2021-09-12 18:16:33 net_route_v4_add: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:16:33 net_route_v4_add: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:16:33 net_route_v4_add: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:16:33 add_route_ipv6(::/3 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:16:33 net_route_v6_add: ::/3 via :: dev tun0 table 0 metric -1
+2021-09-12 18:16:33 add_route_ipv6(2000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:16:33 net_route_v6_add: 2000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:16:33 add_route_ipv6(3000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:16:33 net_route_v6_add: 3000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:16:33 add_route_ipv6(fc00::/7 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:16:33 net_route_v6_add: fc00::/7 via :: dev tun0 table 0 metric -1
+2021-09-12 18:16:33 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+2021-09-12 18:16:33 Initialization Sequence Completed
+2021-09-12 18:17:11 Unrecognized option or missing or extra parameter(s) in /home/nikita/docs/stuff/freerun.ovpn:13: block-outside-dns (2.5.3)
+2021-09-12 18:17:11 DEPRECATED OPTION: --cipher set to 'AES-256-CBC' but missing in --data-ciphers (AES-256-GCM:AES-128-GCM). Future OpenVPN version will ignore --cipher for cipher negotiations. Add 'AES-256-CBC' to --data-ciphers or change --cipher 'AES-256-CBC' to --data-ciphers-fallback 'AES-256-CBC' to silence this warning.
+2021-09-12 18:17:11 OpenVPN 2.5.3 [git:makepkg/ecaf88f8a4e75856+] x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Jun 18 2021
+2021-09-12 18:17:11 library versions: OpenSSL 1.1.1l  24 Aug 2021, LZO 2.10
+2021-09-12 18:17:11 Outgoing Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:17:11 Outgoing Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:17:11 Incoming Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:17:11 Incoming Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:17:11 TCP/UDP: Preserving recently used remote address: [AF_INET]95.216.20.142:20106
+2021-09-12 18:17:11 Socket Buffers: R=[212992->212992] S=[212992->212992]
+2021-09-12 18:17:11 UDP link local: (not bound)
+2021-09-12 18:17:11 UDP link remote: [AF_INET]95.216.20.142:20106
+2021-09-12 18:17:11 TLS: Initial packet from [AF_INET]95.216.20.142:20106, sid=b431464f e579bd83
+2021-09-12 18:17:11 VERIFY OK: depth=1, CN=ChangeMe
+2021-09-12 18:17:11 VERIFY KU OK
+2021-09-12 18:17:11 Validating certificate extended key usage
+2021-09-12 18:17:11 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+2021-09-12 18:17:11 VERIFY EKU OK
+2021-09-12 18:17:11 VERIFY OK: depth=0, CN=server
+2021-09-12 18:17:11 Control Channel: TLSv1.2, cipher TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384, peer certificate: 2048 bit RSA, signature: RSA-SHA256
+2021-09-12 18:17:11 [server] Peer Connection Initiated with [AF_INET]95.216.20.142:20106
+2021-09-12 18:17:12 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+2021-09-12 18:17:12 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 ipv6 bypass-dhcp,dhcp-option DNS 1.1.1.1,dhcp-option DNS 1.0.0.1,tun-ipv6,route-gateway 10.8.0.1,topology subnet,ping 10,ping-restart 120,ifconfig-ipv6 fddd:1194:1194:1194::1000/64 fddd:1194:1194:1194::1,ifconfig 10.8.0.2 255.255.255.0,peer-id 1,cipher AES-256-GCM'
+2021-09-12 18:17:12 OPTIONS IMPORT: timers and/or timeouts modified
+2021-09-12 18:17:12 OPTIONS IMPORT: --ifconfig/up options modified
+2021-09-12 18:17:12 OPTIONS IMPORT: route options modified
+2021-09-12 18:17:12 OPTIONS IMPORT: route-related options modified
+2021-09-12 18:17:12 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+2021-09-12 18:17:12 OPTIONS IMPORT: peer-id set
+2021-09-12 18:17:12 OPTIONS IMPORT: adjusting link_mtu to 1624
+2021-09-12 18:17:12 OPTIONS IMPORT: data channel crypto options modified
+2021-09-12 18:17:12 Data Channel: using negotiated cipher 'AES-256-GCM'
+2021-09-12 18:17:12 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:17:12 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:17:12 net_route_v4_best_gw query: dst 0.0.0.0
+2021-09-12 18:17:12 net_route_v4_best_gw result: via 192.168.1.1 dev enp7s0
+2021-09-12 18:17:12 ROUTE_GATEWAY 192.168.1.1/255.255.255.0 IFACE=enp7s0 HWADDR=70:85:c2:3c:6a:56
+2021-09-12 18:17:12 GDG6: remote_host_ipv6=n/a
+2021-09-12 18:17:12 net_route_v6_best_gw query: dst ::
+2021-09-12 18:17:12 net_route_v6_best_gw result: via :: dev tun0
+2021-09-12 18:17:12 ROUTE6_GATEWAY :: ON_LINK IFACE=tun0
+2021-09-12 18:17:12 TUN/TAP device tun1 opened
+2021-09-12 18:17:12 net_iface_mtu_set: mtu 1500 for tun1
+2021-09-12 18:17:12 net_iface_up: set tun1 up
+2021-09-12 18:17:12 net_addr_v4_add: 10.8.0.2/24 dev tun1
+2021-09-12 18:17:12 net_iface_mtu_set: mtu 1500 for tun1
+2021-09-12 18:17:12 net_iface_up: set tun1 up
+2021-09-12 18:17:12 net_addr_v6_add: fddd:1194:1194:1194::1000/64 dev tun1
+2021-09-12 18:17:12 net_route_v4_add: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:17:12 net_route_v4_add: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:17:12 net_route_v4_add: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:17:12 add_route_ipv6(::/3 -> fddd:1194:1194:1194::1 metric -1) dev tun1
+2021-09-12 18:17:12 net_route_v6_add: ::/3 via :: dev tun1 table 0 metric -1
+2021-09-12 18:17:12 add_route_ipv6(2000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun1
+2021-09-12 18:17:12 net_route_v6_add: 2000::/4 via :: dev tun1 table 0 metric -1
+2021-09-12 18:17:12 add_route_ipv6(3000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun1
+2021-09-12 18:17:12 net_route_v6_add: 3000::/4 via :: dev tun1 table 0 metric -1
+2021-09-12 18:17:12 add_route_ipv6(fc00::/7 -> fddd:1194:1194:1194::1 metric -1) dev tun1
+2021-09-12 18:17:12 net_route_v6_add: fc00::/7 via :: dev tun1 table 0 metric -1
+2021-09-12 18:17:12 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+2021-09-12 18:17:12 Initialization Sequence Completed
+2021-09-12 18:18:24 Unrecognized option or missing or extra parameter(s) in /home/nikita/docs/stuff/freerun.ovpn:13: block-outside-dns (2.5.3)
+2021-09-12 18:18:24 DEPRECATED OPTION: --cipher set to 'AES-256-CBC' but missing in --data-ciphers (AES-256-GCM:AES-128-GCM). Future OpenVPN version will ignore --cipher for cipher negotiations. Add 'AES-256-CBC' to --data-ciphers or change --cipher 'AES-256-CBC' to --data-ciphers-fallback 'AES-256-CBC' to silence this warning.
+2021-09-12 18:18:24 OpenVPN 2.5.3 [git:makepkg/ecaf88f8a4e75856+] x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Jun 18 2021
+2021-09-12 18:18:24 library versions: OpenSSL 1.1.1l  24 Aug 2021, LZO 2.10
+2021-09-12 18:18:24 Outgoing Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:18:24 Outgoing Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:18:24 Incoming Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:18:24 Incoming Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:18:24 TCP/UDP: Preserving recently used remote address: [AF_INET]95.216.20.142:20106
+2021-09-12 18:18:24 Socket Buffers: R=[212992->212992] S=[212992->212992]
+2021-09-12 18:18:24 UDP link local: (not bound)
+2021-09-12 18:18:24 UDP link remote: [AF_INET]95.216.20.142:20106
+2021-09-12 18:18:24 TLS: Initial packet from [AF_INET]95.216.20.142:20106, sid=d3e3a1ed f3f7f0e7
+2021-09-12 18:18:24 VERIFY OK: depth=1, CN=ChangeMe
+2021-09-12 18:18:24 VERIFY KU OK
+2021-09-12 18:18:24 Validating certificate extended key usage
+2021-09-12 18:18:24 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+2021-09-12 18:18:24 VERIFY EKU OK
+2021-09-12 18:18:24 VERIFY OK: depth=0, CN=server
+2021-09-12 18:18:24 Control Channel: TLSv1.2, cipher TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384, peer certificate: 2048 bit RSA, signature: RSA-SHA256
+2021-09-12 18:18:24 [server] Peer Connection Initiated with [AF_INET]95.216.20.142:20106
+2021-09-12 18:18:25 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+2021-09-12 18:18:25 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 ipv6 bypass-dhcp,dhcp-option DNS 1.1.1.1,dhcp-option DNS 1.0.0.1,tun-ipv6,route-gateway 10.8.0.1,topology subnet,ping 10,ping-restart 120,ifconfig-ipv6 fddd:1194:1194:1194::1000/64 fddd:1194:1194:1194::1,ifconfig 10.8.0.2 255.255.255.0,peer-id 0,cipher AES-256-GCM'
+2021-09-12 18:18:25 OPTIONS IMPORT: timers and/or timeouts modified
+2021-09-12 18:18:25 OPTIONS IMPORT: --ifconfig/up options modified
+2021-09-12 18:18:25 OPTIONS IMPORT: route options modified
+2021-09-12 18:18:25 OPTIONS IMPORT: route-related options modified
+2021-09-12 18:18:25 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+2021-09-12 18:18:25 OPTIONS IMPORT: peer-id set
+2021-09-12 18:18:25 OPTIONS IMPORT: adjusting link_mtu to 1624
+2021-09-12 18:18:25 OPTIONS IMPORT: data channel crypto options modified
+2021-09-12 18:18:25 Data Channel: using negotiated cipher 'AES-256-GCM'
+2021-09-12 18:18:25 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:18:25 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:18:25 net_route_v4_best_gw query: dst 0.0.0.0
+2021-09-12 18:18:25 net_route_v4_best_gw result: via 192.168.1.1 dev enp7s0
+2021-09-12 18:18:25 ROUTE_GATEWAY 192.168.1.1/255.255.255.0 IFACE=enp7s0 HWADDR=70:85:c2:3c:6a:56
+2021-09-12 18:18:25 GDG6: remote_host_ipv6=n/a
+2021-09-12 18:18:25 net_route_v6_best_gw query: dst ::
+2021-09-12 18:18:25 net_route_v6_best_gw result: via :: dev tun1
+2021-09-12 18:18:25 ROUTE6_GATEWAY :: ON_LINK IFACE=tun1
+2021-09-12 18:18:25 TUN/TAP device tun2 opened
+2021-09-12 18:18:25 net_iface_mtu_set: mtu 1500 for tun2
+2021-09-12 18:18:25 net_iface_up: set tun2 up
+2021-09-12 18:18:25 net_addr_v4_add: 10.8.0.2/24 dev tun2
+2021-09-12 18:18:25 net_iface_mtu_set: mtu 1500 for tun2
+2021-09-12 18:18:25 net_iface_up: set tun2 up
+2021-09-12 18:18:25 net_addr_v6_add: fddd:1194:1194:1194::1000/64 dev tun2
+2021-09-12 18:18:25 net_route_v4_add: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:18:25 net_route_v4_add: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:18:25 net_route_v4_add: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:18:25 add_route_ipv6(::/3 -> fddd:1194:1194:1194::1 metric -1) dev tun2
+2021-09-12 18:18:25 net_route_v6_add: ::/3 via :: dev tun2 table 0 metric -1
+2021-09-12 18:18:25 add_route_ipv6(2000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun2
+2021-09-12 18:18:25 net_route_v6_add: 2000::/4 via :: dev tun2 table 0 metric -1
+2021-09-12 18:18:25 add_route_ipv6(3000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun2
+2021-09-12 18:18:25 net_route_v6_add: 3000::/4 via :: dev tun2 table 0 metric -1
+2021-09-12 18:18:25 add_route_ipv6(fc00::/7 -> fddd:1194:1194:1194::1 metric -1) dev tun2
+2021-09-12 18:18:25 net_route_v6_add: fc00::/7 via :: dev tun2 table 0 metric -1
+2021-09-12 18:18:25 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+2021-09-12 18:18:25 Initialization Sequence Completed
+2021-09-12 18:19:05 [server] Inactivity timeout (--ping-restart), restarting
+2021-09-12 18:19:05 SIGUSR1[soft,ping-restart] received, process restarting
+2021-09-12 18:19:05 Restart pause, 5 second(s)
+2021-09-12 18:19:10 event_wait : Interrupted system call (code=4)
+2021-09-12 18:19:10 event_wait : Interrupted system call (code=4)
+2021-09-12 18:19:10 net_route_v4_del: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:19:10 net_route_v4_del: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:19:10 net_route_v4_del: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:19:10 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:19:10 net_route_v4_del: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:19:10 ERROR: Linux route delete command failed
+2021-09-12 18:19:10 net_route_v4_del: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:19:10 net_route_v4_del: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:19:10 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:19:10 delete_route_ipv6(::/3)
+2021-09-12 18:19:10 ERROR: Linux route delete command failed
+2021-09-12 18:19:10 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:19:10 net_route_v6_del: ::/3 via :: dev tun0 table 0 metric -1
+2021-09-12 18:19:10 net_route_v4_del: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:19:10 ERROR: Linux route delete command failed
+2021-09-12 18:19:10 net_route_v4_del: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:19:10 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:19:10 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:19:10 ERROR: Linux route delete command failed
+2021-09-12 18:19:10 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:19:10 ERROR: Linux route v6 delete command failed
+2021-09-12 18:19:10 delete_route_ipv6(::/3)
+2021-09-12 18:19:10 ERROR: Linux route delete command failed
+2021-09-12 18:19:10 delete_route_ipv6(2000::/4)
+2021-09-12 18:19:10 net_route_v6_del: ::/3 via :: dev tun1 table 0 metric -1
+2021-09-12 18:19:10 net_route_v4_del: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:19:10 net_route_v6_del: 2000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:19:10 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:19:10 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:19:10 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:19:10 ERROR: Linux route delete command failed
+2021-09-12 18:19:10 ERROR: Linux route v6 delete command failed
+2021-09-12 18:19:10 ERROR: Linux route v6 delete command failed
+2021-09-12 18:19:10 delete_route_ipv6(::/3)
+2021-09-12 18:19:10 delete_route_ipv6(2000::/4)
+2021-09-12 18:19:10 delete_route_ipv6(3000::/4)
+2021-09-12 18:19:10 net_route_v6_del: ::/3 via :: dev tun2 table 0 metric -1
+2021-09-12 18:19:10 net_route_v6_del: 2000::/4 via :: dev tun1 table 0 metric -1
+2021-09-12 18:19:10 net_route_v6_del: 3000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:19:10 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:19:10 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:19:10 delete_route_ipv6(2000::/4)
+2021-09-12 18:19:10 ERROR: Linux route v6 delete command failed
+2021-09-12 18:19:10 ERROR: Linux route v6 delete command failed
+2021-09-12 18:19:10 net_route_v6_del: 2000::/4 via :: dev tun2 table 0 metric -1
+2021-09-12 18:19:10 delete_route_ipv6(3000::/4)
+2021-09-12 18:19:10 delete_route_ipv6(fc00::/7)
+2021-09-12 18:19:10 net_route_v6_del: 3000::/4 via :: dev tun1 table 0 metric -1
+2021-09-12 18:19:10 net_route_v6_del: fc00::/7 via :: dev tun0 table 0 metric -1
+2021-09-12 18:19:10 delete_route_ipv6(3000::/4)
+2021-09-12 18:19:10 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:19:10 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:19:10 net_route_v6_del: 3000::/4 via :: dev tun2 table 0 metric -1
+2021-09-12 18:19:10 ERROR: Linux route v6 delete command failed
+2021-09-12 18:19:10 ERROR: Linux route v6 delete command failed
+2021-09-12 18:19:10 delete_route_ipv6(fc00::/7)
+2021-09-12 18:19:10 Closing TUN/TAP interface
+2021-09-12 18:19:10 net_route_v6_del: fc00::/7 via :: dev tun1 table 0 metric -1
+2021-09-12 18:19:10 net_addr_v4_del: 10.8.0.2 dev tun0
+2021-09-12 18:19:10 delete_route_ipv6(fc00::/7)
+2021-09-12 18:19:10 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:19:10 net_route_v6_del: fc00::/7 via :: dev tun2 table 0 metric -1
+2021-09-12 18:19:10 Closing TUN/TAP interface
+2021-09-12 18:19:10 net_addr_v6_del: fddd:1194:1194:1194::1000/64 dev tun0
+2021-09-12 18:19:10 net_addr_v4_del: 10.8.0.2 dev tun2
+2021-09-12 18:19:10 ERROR: Linux route v6 delete command failed
+2021-09-12 18:19:10 net_addr_v6_del: fddd:1194:1194:1194::1000/64 dev tun2
+2021-09-12 18:19:10 Closing TUN/TAP interface
+2021-09-12 18:19:10 net_addr_v4_del: 10.8.0.2 dev tun1
+2021-09-12 18:19:10 net_addr_v6_del: fddd:1194:1194:1194::1000/64 dev tun1
+2021-09-12 18:19:10 SIGTERM[hard,] received, process exiting
+2021-09-12 18:19:10 SIGTERM[hard,init_instance] received, process exiting
+2021-09-12 18:19:10 SIGTERM[hard,] received, process exiting
+2021-09-12 18:21:06 Unrecognized option or missing or extra parameter(s) in /home/nikita/docs/stuff/freerun.ovpn:13: block-outside-dns (2.5.3)
+2021-09-12 18:21:06 DEPRECATED OPTION: --cipher set to 'AES-256-CBC' but missing in --data-ciphers (AES-256-GCM:AES-128-GCM). Future OpenVPN version will ignore --cipher for cipher negotiations. Add 'AES-256-CBC' to --data-ciphers or change --cipher 'AES-256-CBC' to --data-ciphers-fallback 'AES-256-CBC' to silence this warning.
+2021-09-12 18:21:06 OpenVPN 2.5.3 [git:makepkg/ecaf88f8a4e75856+] x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Jun 18 2021
+2021-09-12 18:21:06 library versions: OpenSSL 1.1.1l  24 Aug 2021, LZO 2.10
+2021-09-12 18:21:06 Outgoing Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:21:06 Outgoing Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:21:06 Incoming Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:21:06 Incoming Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:21:06 TCP/UDP: Preserving recently used remote address: [AF_INET]95.216.20.142:20106
+2021-09-12 18:21:06 Socket Buffers: R=[212992->212992] S=[212992->212992]
+2021-09-12 18:21:06 UDP link local: (not bound)
+2021-09-12 18:21:06 UDP link remote: [AF_INET]95.216.20.142:20106
+2021-09-12 18:21:06 TLS: Initial packet from [AF_INET]95.216.20.142:20106, sid=754e0ba7 1b72041f
+2021-09-12 18:21:06 VERIFY OK: depth=1, CN=ChangeMe
+2021-09-12 18:21:06 VERIFY KU OK
+2021-09-12 18:21:06 Validating certificate extended key usage
+2021-09-12 18:21:06 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+2021-09-12 18:21:06 VERIFY EKU OK
+2021-09-12 18:21:06 VERIFY OK: depth=0, CN=server
+2021-09-12 18:21:06 Control Channel: TLSv1.2, cipher TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384, peer certificate: 2048 bit RSA, signature: RSA-SHA256
+2021-09-12 18:21:06 [server] Peer Connection Initiated with [AF_INET]95.216.20.142:20106
+2021-09-12 18:21:08 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+2021-09-12 18:21:08 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 ipv6 bypass-dhcp,dhcp-option DNS 1.1.1.1,dhcp-option DNS 1.0.0.1,tun-ipv6,route-gateway 10.8.0.1,topology subnet,ping 10,ping-restart 120,ifconfig-ipv6 fddd:1194:1194:1194::1000/64 fddd:1194:1194:1194::1,ifconfig 10.8.0.2 255.255.255.0,peer-id 0,cipher AES-256-GCM'
+2021-09-12 18:21:08 OPTIONS IMPORT: timers and/or timeouts modified
+2021-09-12 18:21:08 OPTIONS IMPORT: --ifconfig/up options modified
+2021-09-12 18:21:08 OPTIONS IMPORT: route options modified
+2021-09-12 18:21:08 OPTIONS IMPORT: route-related options modified
+2021-09-12 18:21:08 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+2021-09-12 18:21:08 OPTIONS IMPORT: peer-id set
+2021-09-12 18:21:08 OPTIONS IMPORT: adjusting link_mtu to 1624
+2021-09-12 18:21:08 OPTIONS IMPORT: data channel crypto options modified
+2021-09-12 18:21:08 Data Channel: using negotiated cipher 'AES-256-GCM'
+2021-09-12 18:21:08 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:21:08 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:21:08 net_route_v4_best_gw query: dst 0.0.0.0
+2021-09-12 18:21:08 net_route_v4_best_gw result: via 192.168.1.1 dev enp7s0
+2021-09-12 18:21:08 ROUTE_GATEWAY 192.168.1.1/255.255.255.0 IFACE=enp7s0 HWADDR=70:85:c2:3c:6a:56
+2021-09-12 18:21:08 GDG6: remote_host_ipv6=n/a
+2021-09-12 18:21:08 net_route_v6_best_gw query: dst ::
+2021-09-12 18:21:08 net_route_v6_best_gw result: via :: dev tun0
+2021-09-12 18:21:08 ROUTE6_GATEWAY :: ON_LINK IFACE=tun0
+2021-09-12 18:21:08 TUN/TAP device tun1 opened
+2021-09-12 18:21:08 net_iface_mtu_set: mtu 1500 for tun1
+2021-09-12 18:21:08 net_iface_up: set tun1 up
+2021-09-12 18:21:08 net_addr_v4_add: 10.8.0.2/24 dev tun1
+2021-09-12 18:21:08 net_iface_mtu_set: mtu 1500 for tun1
+2021-09-12 18:21:08 net_iface_up: set tun1 up
+2021-09-12 18:21:08 net_addr_v6_add: fddd:1194:1194:1194::1000/64 dev tun1
+2021-09-12 18:21:08 net_route_v4_add: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:21:08 net_route_v4_add: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:21:08 net_route_v4_add: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:21:08 add_route_ipv6(::/3 -> fddd:1194:1194:1194::1 metric -1) dev tun1
+2021-09-12 18:21:08 net_route_v6_add: ::/3 via :: dev tun1 table 0 metric -1
+2021-09-12 18:21:08 add_route_ipv6(2000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun1
+2021-09-12 18:21:08 net_route_v6_add: 2000::/4 via :: dev tun1 table 0 metric -1
+2021-09-12 18:21:08 add_route_ipv6(3000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun1
+2021-09-12 18:21:08 net_route_v6_add: 3000::/4 via :: dev tun1 table 0 metric -1
+2021-09-12 18:21:08 add_route_ipv6(fc00::/7 -> fddd:1194:1194:1194::1 metric -1) dev tun1
+2021-09-12 18:21:08 net_route_v6_add: fc00::/7 via :: dev tun1 table 0 metric -1
+2021-09-12 18:21:08 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+2021-09-12 18:21:08 Initialization Sequence Completed
+2021-09-12 18:21:33 event_wait : Interrupted system call (code=4)
+2021-09-12 18:21:33 net_route_v4_del: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:21:33 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:21:33 ERROR: Linux route delete command failed
+2021-09-12 18:21:33 net_route_v4_del: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:21:33 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:21:33 ERROR: Linux route delete command failed
+2021-09-12 18:21:33 net_route_v4_del: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:21:33 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:21:33 ERROR: Linux route delete command failed
+2021-09-12 18:21:33 delete_route_ipv6(::/3)
+2021-09-12 18:21:33 net_route_v6_del: ::/3 via :: dev tun1 table 0 metric -1
+2021-09-12 18:21:33 delete_route_ipv6(2000::/4)
+2021-09-12 18:21:33 net_route_v6_del: 2000::/4 via :: dev tun1 table 0 metric -1
+2021-09-12 18:21:33 delete_route_ipv6(3000::/4)
+2021-09-12 18:21:33 net_route_v6_del: 3000::/4 via :: dev tun1 table 0 metric -1
+2021-09-12 18:21:33 delete_route_ipv6(fc00::/7)
+2021-09-12 18:21:33 net_route_v6_del: fc00::/7 via :: dev tun1 table 0 metric -1
+2021-09-12 18:21:33 Closing TUN/TAP interface
+2021-09-12 18:21:33 net_addr_v4_del: 10.8.0.2 dev tun1
+2021-09-12 18:21:33 net_addr_v6_del: fddd:1194:1194:1194::1000/64 dev tun1
+2021-09-12 18:21:33 SIGTERM[hard,] received, process exiting
+2021-09-12 18:21:39 Unrecognized option or missing or extra parameter(s) in /home/nikita/docs/stuff/freerun.ovpn:13: block-outside-dns (2.5.3)
+2021-09-12 18:21:39 DEPRECATED OPTION: --cipher set to 'AES-256-CBC' but missing in --data-ciphers (AES-256-GCM:AES-128-GCM). Future OpenVPN version will ignore --cipher for cipher negotiations. Add 'AES-256-CBC' to --data-ciphers or change --cipher 'AES-256-CBC' to --data-ciphers-fallback 'AES-256-CBC' to silence this warning.
+2021-09-12 18:21:39 OpenVPN 2.5.3 [git:makepkg/ecaf88f8a4e75856+] x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Jun 18 2021
+2021-09-12 18:21:39 library versions: OpenSSL 1.1.1l  24 Aug 2021, LZO 2.10
+2021-09-12 18:21:39 Outgoing Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:21:39 Outgoing Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:21:39 Incoming Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:21:39 Incoming Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:21:39 TCP/UDP: Preserving recently used remote address: [AF_INET]95.216.20.142:20106
+2021-09-12 18:21:39 Socket Buffers: R=[212992->212992] S=[212992->212992]
+2021-09-12 18:21:39 UDP link local: (not bound)
+2021-09-12 18:21:39 UDP link remote: [AF_INET]95.216.20.142:20106
+2021-09-12 18:21:39 TLS: Initial packet from [AF_INET]95.216.20.142:20106, sid=a8dd667c 3f154e24
+2021-09-12 18:21:39 VERIFY OK: depth=1, CN=ChangeMe
+2021-09-12 18:21:39 VERIFY KU OK
+2021-09-12 18:21:39 Validating certificate extended key usage
+2021-09-12 18:21:39 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+2021-09-12 18:21:39 VERIFY EKU OK
+2021-09-12 18:21:39 VERIFY OK: depth=0, CN=server
+2021-09-12 18:21:39 Control Channel: TLSv1.2, cipher TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384, peer certificate: 2048 bit RSA, signature: RSA-SHA256
+2021-09-12 18:21:39 [server] Peer Connection Initiated with [AF_INET]95.216.20.142:20106
+2021-09-12 18:21:40 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+2021-09-12 18:21:40 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 ipv6 bypass-dhcp,dhcp-option DNS 1.1.1.1,dhcp-option DNS 1.0.0.1,tun-ipv6,route-gateway 10.8.0.1,topology subnet,ping 10,ping-restart 120,ifconfig-ipv6 fddd:1194:1194:1194::1000/64 fddd:1194:1194:1194::1,ifconfig 10.8.0.2 255.255.255.0,peer-id 1,cipher AES-256-GCM'
+2021-09-12 18:21:40 OPTIONS IMPORT: timers and/or timeouts modified
+2021-09-12 18:21:40 OPTIONS IMPORT: --ifconfig/up options modified
+2021-09-12 18:21:40 OPTIONS IMPORT: route options modified
+2021-09-12 18:21:40 OPTIONS IMPORT: route-related options modified
+2021-09-12 18:21:40 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+2021-09-12 18:21:40 OPTIONS IMPORT: peer-id set
+2021-09-12 18:21:40 OPTIONS IMPORT: adjusting link_mtu to 1624
+2021-09-12 18:21:40 OPTIONS IMPORT: data channel crypto options modified
+2021-09-12 18:21:40 Data Channel: using negotiated cipher 'AES-256-GCM'
+2021-09-12 18:21:40 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:21:40 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:21:40 net_route_v4_best_gw query: dst 0.0.0.0
+2021-09-12 18:21:40 net_route_v4_best_gw result: via 192.168.1.1 dev enp7s0
+2021-09-12 18:21:40 ROUTE_GATEWAY 192.168.1.1/255.255.255.0 IFACE=enp7s0 HWADDR=70:85:c2:3c:6a:56
+2021-09-12 18:21:40 GDG6: remote_host_ipv6=n/a
+2021-09-12 18:21:40 net_route_v6_best_gw query: dst ::
+2021-09-12 18:21:40 sitnl_send: rtnl: generic error (-101): Network is unreachable
+2021-09-12 18:21:40 ROUTE6: default_gateway=UNDEF
+2021-09-12 18:21:40 TUN/TAP device tun0 opened
+2021-09-12 18:21:40 net_iface_mtu_set: mtu 1500 for tun0
+2021-09-12 18:21:40 net_iface_up: set tun0 up
+2021-09-12 18:21:40 net_addr_v4_add: 10.8.0.2/24 dev tun0
+2021-09-12 18:21:40 net_iface_mtu_set: mtu 1500 for tun0
+2021-09-12 18:21:40 net_iface_up: set tun0 up
+2021-09-12 18:21:40 net_addr_v6_add: fddd:1194:1194:1194::1000/64 dev tun0
+2021-09-12 18:21:40 net_route_v4_add: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:21:40 net_route_v4_add: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:21:40 net_route_v4_add: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:21:40 add_route_ipv6(::/3 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:21:40 net_route_v6_add: ::/3 via :: dev tun0 table 0 metric -1
+2021-09-12 18:21:40 add_route_ipv6(2000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:21:40 net_route_v6_add: 2000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:21:40 add_route_ipv6(3000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:21:40 net_route_v6_add: 3000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:21:40 add_route_ipv6(fc00::/7 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:21:40 net_route_v6_add: fc00::/7 via :: dev tun0 table 0 metric -1
+2021-09-12 18:21:40 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+2021-09-12 18:21:40 Initialization Sequence Completed
+2021-09-12 18:22:56 event_wait : Interrupted system call (code=4)
+2021-09-12 18:22:56 net_route_v4_del: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:22:56 net_route_v4_del: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:22:56 net_route_v4_del: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:22:56 delete_route_ipv6(::/3)
+2021-09-12 18:22:56 net_route_v6_del: ::/3 via :: dev tun0 table 0 metric -1
+2021-09-12 18:22:56 delete_route_ipv6(2000::/4)
+2021-09-12 18:22:56 net_route_v6_del: 2000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:22:56 delete_route_ipv6(3000::/4)
+2021-09-12 18:22:56 net_route_v6_del: 3000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:22:56 delete_route_ipv6(fc00::/7)
+2021-09-12 18:22:56 net_route_v6_del: fc00::/7 via :: dev tun0 table 0 metric -1
+2021-09-12 18:22:56 Closing TUN/TAP interface
+2021-09-12 18:22:56 net_addr_v4_del: 10.8.0.2 dev tun0
+2021-09-12 18:22:56 net_addr_v6_del: fddd:1194:1194:1194::1000/64 dev tun0
+2021-09-12 18:22:56 SIGTERM[hard,] received, process exiting
+2021-09-12 18:24:35 Unrecognized option or missing or extra parameter(s) in /home/nikita/docs/stuff/freerun.ovpn:13: block-outside-dns (2.5.3)
+2021-09-12 18:24:35 DEPRECATED OPTION: --cipher set to 'AES-256-CBC' but missing in --data-ciphers (AES-256-GCM:AES-128-GCM). Future OpenVPN version will ignore --cipher for cipher negotiations. Add 'AES-256-CBC' to --data-ciphers or change --cipher 'AES-256-CBC' to --data-ciphers-fallback 'AES-256-CBC' to silence this warning.
+2021-09-12 18:24:35 OpenVPN 2.5.3 [git:makepkg/ecaf88f8a4e75856+] x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Jun 18 2021
+2021-09-12 18:24:35 library versions: OpenSSL 1.1.1l  24 Aug 2021, LZO 2.10
+2021-09-12 18:24:35 Outgoing Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:24:35 Outgoing Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:24:35 Incoming Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:24:35 Incoming Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:24:35 TCP/UDP: Preserving recently used remote address: [AF_INET]95.216.20.142:20106
+2021-09-12 18:24:35 Socket Buffers: R=[212992->212992] S=[212992->212992]
+2021-09-12 18:24:35 UDP link local: (not bound)
+2021-09-12 18:24:35 UDP link remote: [AF_INET]95.216.20.142:20106
+2021-09-12 18:24:35 TLS: Initial packet from [AF_INET]95.216.20.142:20106, sid=b90cf972 853a5f9a
+2021-09-12 18:24:35 VERIFY OK: depth=1, CN=ChangeMe
+2021-09-12 18:24:35 VERIFY KU OK
+2021-09-12 18:24:35 Validating certificate extended key usage
+2021-09-12 18:24:35 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+2021-09-12 18:24:35 VERIFY EKU OK
+2021-09-12 18:24:35 VERIFY OK: depth=0, CN=server
+2021-09-12 18:24:35 Control Channel: TLSv1.2, cipher TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384, peer certificate: 2048 bit RSA, signature: RSA-SHA256
+2021-09-12 18:24:35 [server] Peer Connection Initiated with [AF_INET]95.216.20.142:20106
+2021-09-12 18:24:37 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+2021-09-12 18:24:37 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 ipv6 bypass-dhcp,dhcp-option DNS 1.1.1.1,dhcp-option DNS 1.0.0.1,tun-ipv6,route-gateway 10.8.0.1,topology subnet,ping 10,ping-restart 120,ifconfig-ipv6 fddd:1194:1194:1194::1000/64 fddd:1194:1194:1194::1,ifconfig 10.8.0.2 255.255.255.0,peer-id 0,cipher AES-256-GCM'
+2021-09-12 18:24:37 OPTIONS IMPORT: timers and/or timeouts modified
+2021-09-12 18:24:37 OPTIONS IMPORT: --ifconfig/up options modified
+2021-09-12 18:24:37 OPTIONS IMPORT: route options modified
+2021-09-12 18:24:37 OPTIONS IMPORT: route-related options modified
+2021-09-12 18:24:37 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+2021-09-12 18:24:37 OPTIONS IMPORT: peer-id set
+2021-09-12 18:24:37 OPTIONS IMPORT: adjusting link_mtu to 1624
+2021-09-12 18:24:37 OPTIONS IMPORT: data channel crypto options modified
+2021-09-12 18:24:37 Data Channel: using negotiated cipher 'AES-256-GCM'
+2021-09-12 18:24:37 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:24:37 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:24:37 net_route_v4_best_gw query: dst 0.0.0.0
+2021-09-12 18:24:37 net_route_v4_best_gw result: via 192.168.1.1 dev enp7s0
+2021-09-12 18:24:37 ROUTE_GATEWAY 192.168.1.1/255.255.255.0 IFACE=enp7s0 HWADDR=70:85:c2:3c:6a:56
+2021-09-12 18:24:37 GDG6: remote_host_ipv6=n/a
+2021-09-12 18:24:37 net_route_v6_best_gw query: dst ::
+2021-09-12 18:24:37 sitnl_send: rtnl: generic error (-101): Network is unreachable
+2021-09-12 18:24:37 ROUTE6: default_gateway=UNDEF
+2021-09-12 18:24:37 TUN/TAP device tun0 opened
+2021-09-12 18:24:37 net_iface_mtu_set: mtu 1500 for tun0
+2021-09-12 18:24:37 net_iface_up: set tun0 up
+2021-09-12 18:24:37 net_addr_v4_add: 10.8.0.2/24 dev tun0
+2021-09-12 18:24:37 net_iface_mtu_set: mtu 1500 for tun0
+2021-09-12 18:24:37 net_iface_up: set tun0 up
+2021-09-12 18:24:37 net_addr_v6_add: fddd:1194:1194:1194::1000/64 dev tun0
+2021-09-12 18:24:37 net_route_v4_add: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:24:37 net_route_v4_add: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:24:37 net_route_v4_add: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:24:37 add_route_ipv6(::/3 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:24:37 net_route_v6_add: ::/3 via :: dev tun0 table 0 metric -1
+2021-09-12 18:24:37 add_route_ipv6(2000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:24:37 net_route_v6_add: 2000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:24:37 add_route_ipv6(3000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:24:37 net_route_v6_add: 3000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:24:37 add_route_ipv6(fc00::/7 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:24:37 net_route_v6_add: fc00::/7 via :: dev tun0 table 0 metric -1
+2021-09-12 18:24:37 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+2021-09-12 18:24:37 Initialization Sequence Completed
+2021-09-12 18:25:07 Unrecognized option or missing or extra parameter(s) in /home/nikita/docs/stuff/freerun.ovpn:13: block-outside-dns (2.5.3)
+2021-09-12 18:25:07 DEPRECATED OPTION: --cipher set to 'AES-256-CBC' but missing in --data-ciphers (AES-256-GCM:AES-128-GCM). Future OpenVPN version will ignore --cipher for cipher negotiations. Add 'AES-256-CBC' to --data-ciphers or change --cipher 'AES-256-CBC' to --data-ciphers-fallback 'AES-256-CBC' to silence this warning.
+2021-09-12 18:25:07 OpenVPN 2.5.3 [git:makepkg/ecaf88f8a4e75856+] x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Jun 18 2021
+2021-09-12 18:25:07 library versions: OpenSSL 1.1.1l  24 Aug 2021, LZO 2.10
+2021-09-12 18:25:07 Outgoing Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:25:07 Outgoing Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:25:07 Incoming Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:25:07 Incoming Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:25:07 TCP/UDP: Preserving recently used remote address: [AF_INET]95.216.20.142:20106
+2021-09-12 18:25:07 Socket Buffers: R=[212992->212992] S=[212992->212992]
+2021-09-12 18:25:07 UDP link local: (not bound)
+2021-09-12 18:25:07 UDP link remote: [AF_INET]95.216.20.142:20106
+2021-09-12 18:25:07 TLS: Initial packet from [AF_INET]95.216.20.142:20106, sid=b683c98c a7bb69d7
+2021-09-12 18:25:07 VERIFY OK: depth=1, CN=ChangeMe
+2021-09-12 18:25:07 VERIFY KU OK
+2021-09-12 18:25:07 Validating certificate extended key usage
+2021-09-12 18:25:07 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+2021-09-12 18:25:07 VERIFY EKU OK
+2021-09-12 18:25:07 VERIFY OK: depth=0, CN=server
+2021-09-12 18:25:07 Control Channel: TLSv1.2, cipher TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384, peer certificate: 2048 bit RSA, signature: RSA-SHA256
+2021-09-12 18:25:07 [server] Peer Connection Initiated with [AF_INET]95.216.20.142:20106
+2021-09-12 18:25:09 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+2021-09-12 18:25:09 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 ipv6 bypass-dhcp,dhcp-option DNS 1.1.1.1,dhcp-option DNS 1.0.0.1,tun-ipv6,route-gateway 10.8.0.1,topology subnet,ping 10,ping-restart 120,ifconfig-ipv6 fddd:1194:1194:1194::1000/64 fddd:1194:1194:1194::1,ifconfig 10.8.0.2 255.255.255.0,peer-id 1,cipher AES-256-GCM'
+2021-09-12 18:25:09 OPTIONS IMPORT: timers and/or timeouts modified
+2021-09-12 18:25:09 OPTIONS IMPORT: --ifconfig/up options modified
+2021-09-12 18:25:09 OPTIONS IMPORT: route options modified
+2021-09-12 18:25:09 OPTIONS IMPORT: route-related options modified
+2021-09-12 18:25:09 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+2021-09-12 18:25:09 OPTIONS IMPORT: peer-id set
+2021-09-12 18:25:09 OPTIONS IMPORT: adjusting link_mtu to 1624
+2021-09-12 18:25:09 OPTIONS IMPORT: data channel crypto options modified
+2021-09-12 18:25:09 Data Channel: using negotiated cipher 'AES-256-GCM'
+2021-09-12 18:25:09 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:25:09 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:25:09 net_route_v4_best_gw query: dst 0.0.0.0
+2021-09-12 18:25:09 net_route_v4_best_gw result: via 192.168.1.1 dev enp7s0
+2021-09-12 18:25:09 ROUTE_GATEWAY 192.168.1.1/255.255.255.0 IFACE=enp7s0 HWADDR=70:85:c2:3c:6a:56
+2021-09-12 18:25:09 GDG6: remote_host_ipv6=n/a
+2021-09-12 18:25:09 net_route_v6_best_gw query: dst ::
+2021-09-12 18:25:09 net_route_v6_best_gw result: via :: dev tun0
+2021-09-12 18:25:09 ROUTE6_GATEWAY :: ON_LINK IFACE=tun0
+2021-09-12 18:25:09 TUN/TAP device tun1 opened
+2021-09-12 18:25:09 net_iface_mtu_set: mtu 1500 for tun1
+2021-09-12 18:25:09 net_iface_up: set tun1 up
+2021-09-12 18:25:09 net_addr_v4_add: 10.8.0.2/24 dev tun1
+2021-09-12 18:25:09 net_iface_mtu_set: mtu 1500 for tun1
+2021-09-12 18:25:09 net_iface_up: set tun1 up
+2021-09-12 18:25:09 net_addr_v6_add: fddd:1194:1194:1194::1000/64 dev tun1
+2021-09-12 18:25:09 net_route_v4_add: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:25:09 net_route_v4_add: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:25:09 net_route_v4_add: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:25:09 add_route_ipv6(::/3 -> fddd:1194:1194:1194::1 metric -1) dev tun1
+2021-09-12 18:25:09 net_route_v6_add: ::/3 via :: dev tun1 table 0 metric -1
+2021-09-12 18:25:09 add_route_ipv6(2000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun1
+2021-09-12 18:25:09 net_route_v6_add: 2000::/4 via :: dev tun1 table 0 metric -1
+2021-09-12 18:25:09 add_route_ipv6(3000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun1
+2021-09-12 18:25:09 net_route_v6_add: 3000::/4 via :: dev tun1 table 0 metric -1
+2021-09-12 18:25:09 add_route_ipv6(fc00::/7 -> fddd:1194:1194:1194::1 metric -1) dev tun1
+2021-09-12 18:25:09 net_route_v6_add: fc00::/7 via :: dev tun1 table 0 metric -1
+2021-09-12 18:25:09 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+2021-09-12 18:25:09 Initialization Sequence Completed
+2021-09-12 18:26:25 event_wait : Interrupted system call (code=4)
+2021-09-12 18:26:25 event_wait : Interrupted system call (code=4)
+2021-09-12 18:26:25 net_route_v4_del: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:26:25 net_route_v4_del: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:26:25 net_route_v4_del: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:26:25 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:26:25 ERROR: Linux route delete command failed
+2021-09-12 18:26:25 net_route_v4_del: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:26:25 net_route_v4_del: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:26:25 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:26:25 delete_route_ipv6(::/3)
+2021-09-12 18:26:25 ERROR: Linux route delete command failed
+2021-09-12 18:26:25 net_route_v6_del: ::/3 via :: dev tun0 table 0 metric -1
+2021-09-12 18:26:25 net_route_v4_del: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:26:25 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:26:25 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:26:25 ERROR: Linux route delete command failed
+2021-09-12 18:26:25 ERROR: Linux route v6 delete command failed
+2021-09-12 18:26:25 delete_route_ipv6(::/3)
+2021-09-12 18:26:25 delete_route_ipv6(2000::/4)
+2021-09-12 18:26:25 net_route_v6_del: ::/3 via :: dev tun1 table 0 metric -1
+2021-09-12 18:26:25 net_route_v6_del: 2000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:26:25 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:26:25 delete_route_ipv6(2000::/4)
+2021-09-12 18:26:25 ERROR: Linux route v6 delete command failed
+2021-09-12 18:26:25 net_route_v6_del: 2000::/4 via :: dev tun1 table 0 metric -1
+2021-09-12 18:26:25 delete_route_ipv6(3000::/4)
+2021-09-12 18:26:25 net_route_v6_del: 3000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:26:25 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:26:25 delete_route_ipv6(3000::/4)
+2021-09-12 18:26:25 ERROR: Linux route v6 delete command failed
+2021-09-12 18:26:25 net_route_v6_del: 3000::/4 via :: dev tun1 table 0 metric -1
+2021-09-12 18:26:25 delete_route_ipv6(fc00::/7)
+2021-09-12 18:26:25 net_route_v6_del: fc00::/7 via :: dev tun0 table 0 metric -1
+2021-09-12 18:26:25 delete_route_ipv6(fc00::/7)
+2021-09-12 18:26:25 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:26:25 net_route_v6_del: fc00::/7 via :: dev tun1 table 0 metric -1
+2021-09-12 18:26:25 ERROR: Linux route v6 delete command failed
+2021-09-12 18:26:25 Closing TUN/TAP interface
+2021-09-12 18:26:25 net_addr_v4_del: 10.8.0.2 dev tun0
+2021-09-12 18:26:25 Closing TUN/TAP interface
+2021-09-12 18:26:25 net_addr_v4_del: 10.8.0.2 dev tun1
+2021-09-12 18:26:25 net_addr_v6_del: fddd:1194:1194:1194::1000/64 dev tun0
+2021-09-12 18:26:25 net_addr_v6_del: fddd:1194:1194:1194::1000/64 dev tun1
+2021-09-12 18:26:25 SIGTERM[hard,] received, process exiting
+2021-09-12 18:26:25 SIGTERM[hard,] received, process exiting
+2021-09-12 18:27:32 Unrecognized option or missing or extra parameter(s) in /home/nikita/docs/stuff/freerun.ovpn:13: block-outside-dns (2.5.3)
+2021-09-12 18:27:32 DEPRECATED OPTION: --cipher set to 'AES-256-CBC' but missing in --data-ciphers (AES-256-GCM:AES-128-GCM). Future OpenVPN version will ignore --cipher for cipher negotiations. Add 'AES-256-CBC' to --data-ciphers or change --cipher 'AES-256-CBC' to --data-ciphers-fallback 'AES-256-CBC' to silence this warning.
+2021-09-12 18:27:32 OpenVPN 2.5.3 [git:makepkg/ecaf88f8a4e75856+] x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Jun 18 2021
+2021-09-12 18:27:32 library versions: OpenSSL 1.1.1l  24 Aug 2021, LZO 2.10
+2021-09-12 18:27:32 Outgoing Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:27:32 Outgoing Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:27:32 Incoming Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:27:32 Incoming Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:27:32 TCP/UDP: Preserving recently used remote address: [AF_INET]95.216.20.142:20106
+2021-09-12 18:27:32 Socket Buffers: R=[212992->212992] S=[212992->212992]
+2021-09-12 18:27:32 UDP link local: (not bound)
+2021-09-12 18:27:32 UDP link remote: [AF_INET]95.216.20.142:20106
+2021-09-12 18:27:32 TLS: Initial packet from [AF_INET]95.216.20.142:20106, sid=ccebc1d1 86b33af0
+2021-09-12 18:27:32 VERIFY OK: depth=1, CN=ChangeMe
+2021-09-12 18:27:32 VERIFY KU OK
+2021-09-12 18:27:32 Validating certificate extended key usage
+2021-09-12 18:27:32 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+2021-09-12 18:27:32 VERIFY EKU OK
+2021-09-12 18:27:32 VERIFY OK: depth=0, CN=server
+2021-09-12 18:27:32 Control Channel: TLSv1.2, cipher TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384, peer certificate: 2048 bit RSA, signature: RSA-SHA256
+2021-09-12 18:27:32 [server] Peer Connection Initiated with [AF_INET]95.216.20.142:20106
+2021-09-12 18:27:33 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+2021-09-12 18:27:33 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 ipv6 bypass-dhcp,dhcp-option DNS 1.1.1.1,dhcp-option DNS 1.0.0.1,tun-ipv6,route-gateway 10.8.0.1,topology subnet,ping 10,ping-restart 120,ifconfig-ipv6 fddd:1194:1194:1194::1000/64 fddd:1194:1194:1194::1,ifconfig 10.8.0.2 255.255.255.0,peer-id 0,cipher AES-256-GCM'
+2021-09-12 18:27:33 OPTIONS IMPORT: timers and/or timeouts modified
+2021-09-12 18:27:33 OPTIONS IMPORT: --ifconfig/up options modified
+2021-09-12 18:27:33 OPTIONS IMPORT: route options modified
+2021-09-12 18:27:33 OPTIONS IMPORT: route-related options modified
+2021-09-12 18:27:33 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+2021-09-12 18:27:33 OPTIONS IMPORT: peer-id set
+2021-09-12 18:27:33 OPTIONS IMPORT: adjusting link_mtu to 1624
+2021-09-12 18:27:33 OPTIONS IMPORT: data channel crypto options modified
+2021-09-12 18:27:33 Data Channel: using negotiated cipher 'AES-256-GCM'
+2021-09-12 18:27:33 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:27:33 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:27:33 net_route_v4_best_gw query: dst 0.0.0.0
+2021-09-12 18:27:33 net_route_v4_best_gw result: via 192.168.1.1 dev enp7s0
+2021-09-12 18:27:33 ROUTE_GATEWAY 192.168.1.1/255.255.255.0 IFACE=enp7s0 HWADDR=70:85:c2:3c:6a:56
+2021-09-12 18:27:33 GDG6: remote_host_ipv6=n/a
+2021-09-12 18:27:33 net_route_v6_best_gw query: dst ::
+2021-09-12 18:27:33 sitnl_send: rtnl: generic error (-101): Network is unreachable
+2021-09-12 18:27:33 ROUTE6: default_gateway=UNDEF
+2021-09-12 18:27:33 TUN/TAP device tun0 opened
+2021-09-12 18:27:33 net_iface_mtu_set: mtu 1500 for tun0
+2021-09-12 18:27:33 net_iface_up: set tun0 up
+2021-09-12 18:27:33 net_addr_v4_add: 10.8.0.2/24 dev tun0
+2021-09-12 18:27:33 net_iface_mtu_set: mtu 1500 for tun0
+2021-09-12 18:27:33 net_iface_up: set tun0 up
+2021-09-12 18:27:33 net_addr_v6_add: fddd:1194:1194:1194::1000/64 dev tun0
+2021-09-12 18:27:33 net_route_v4_add: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:27:33 net_route_v4_add: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:27:33 net_route_v4_add: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:27:33 add_route_ipv6(::/3 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:27:33 net_route_v6_add: ::/3 via :: dev tun0 table 0 metric -1
+2021-09-12 18:27:33 add_route_ipv6(2000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:27:33 net_route_v6_add: 2000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:27:33 add_route_ipv6(3000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:27:33 net_route_v6_add: 3000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:27:33 add_route_ipv6(fc00::/7 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:27:33 net_route_v6_add: fc00::/7 via :: dev tun0 table 0 metric -1
+2021-09-12 18:27:33 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+2021-09-12 18:27:33 Initialization Sequence Completed
+2021-09-12 18:28:57 event_wait : Interrupted system call (code=4)
+2021-09-12 18:28:57 net_route_v4_del: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:28:57 net_route_v4_del: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:28:57 net_route_v4_del: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:28:57 delete_route_ipv6(::/3)
+2021-09-12 18:28:57 net_route_v6_del: ::/3 via :: dev tun0 table 0 metric -1
+2021-09-12 18:28:57 delete_route_ipv6(2000::/4)
+2021-09-12 18:28:57 net_route_v6_del: 2000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:28:57 delete_route_ipv6(3000::/4)
+2021-09-12 18:28:57 net_route_v6_del: 3000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:28:57 delete_route_ipv6(fc00::/7)
+2021-09-12 18:28:57 net_route_v6_del: fc00::/7 via :: dev tun0 table 0 metric -1
+2021-09-12 18:28:57 Closing TUN/TAP interface
+2021-09-12 18:28:57 net_addr_v4_del: 10.8.0.2 dev tun0
+2021-09-12 18:28:57 net_addr_v6_del: fddd:1194:1194:1194::1000/64 dev tun0
+2021-09-12 18:28:57 SIGTERM[hard,] received, process exiting
+2021-09-12 18:29:03 Unrecognized option or missing or extra parameter(s) in /home/nikita/docs/stuff/freerun.ovpn:13: block-outside-dns (2.5.3)
+2021-09-12 18:29:03 DEPRECATED OPTION: --cipher set to 'AES-256-CBC' but missing in --data-ciphers (AES-256-GCM:AES-128-GCM). Future OpenVPN version will ignore --cipher for cipher negotiations. Add 'AES-256-CBC' to --data-ciphers or change --cipher 'AES-256-CBC' to --data-ciphers-fallback 'AES-256-CBC' to silence this warning.
+2021-09-12 18:29:03 OpenVPN 2.5.3 [git:makepkg/ecaf88f8a4e75856+] x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Jun 18 2021
+2021-09-12 18:29:03 library versions: OpenSSL 1.1.1l  24 Aug 2021, LZO 2.10
+2021-09-12 18:29:03 Outgoing Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:29:03 Outgoing Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:29:03 Incoming Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:29:03 Incoming Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:29:03 TCP/UDP: Preserving recently used remote address: [AF_INET]95.216.20.142:20106
+2021-09-12 18:29:03 Socket Buffers: R=[212992->212992] S=[212992->212992]
+2021-09-12 18:29:03 UDP link local: (not bound)
+2021-09-12 18:29:03 UDP link remote: [AF_INET]95.216.20.142:20106
+2021-09-12 18:29:03 TLS: Initial packet from [AF_INET]95.216.20.142:20106, sid=f0e6ebb7 9b14f892
+2021-09-12 18:29:03 VERIFY OK: depth=1, CN=ChangeMe
+2021-09-12 18:29:03 VERIFY KU OK
+2021-09-12 18:29:03 Validating certificate extended key usage
+2021-09-12 18:29:03 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+2021-09-12 18:29:03 VERIFY EKU OK
+2021-09-12 18:29:03 VERIFY OK: depth=0, CN=server
+2021-09-12 18:29:03 Control Channel: TLSv1.2, cipher TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384, peer certificate: 2048 bit RSA, signature: RSA-SHA256
+2021-09-12 18:29:03 [server] Peer Connection Initiated with [AF_INET]95.216.20.142:20106
+2021-09-12 18:29:04 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+2021-09-12 18:29:04 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 ipv6 bypass-dhcp,dhcp-option DNS 1.1.1.1,dhcp-option DNS 1.0.0.1,tun-ipv6,route-gateway 10.8.0.1,topology subnet,ping 10,ping-restart 120,ifconfig-ipv6 fddd:1194:1194:1194::1000/64 fddd:1194:1194:1194::1,ifconfig 10.8.0.2 255.255.255.0,peer-id 1,cipher AES-256-GCM'
+2021-09-12 18:29:04 OPTIONS IMPORT: timers and/or timeouts modified
+2021-09-12 18:29:04 OPTIONS IMPORT: --ifconfig/up options modified
+2021-09-12 18:29:04 OPTIONS IMPORT: route options modified
+2021-09-12 18:29:04 OPTIONS IMPORT: route-related options modified
+2021-09-12 18:29:04 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+2021-09-12 18:29:04 OPTIONS IMPORT: peer-id set
+2021-09-12 18:29:04 OPTIONS IMPORT: adjusting link_mtu to 1624
+2021-09-12 18:29:04 OPTIONS IMPORT: data channel crypto options modified
+2021-09-12 18:29:04 Data Channel: using negotiated cipher 'AES-256-GCM'
+2021-09-12 18:29:04 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:29:04 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:29:04 net_route_v4_best_gw query: dst 0.0.0.0
+2021-09-12 18:29:04 net_route_v4_best_gw result: via 192.168.1.1 dev enp7s0
+2021-09-12 18:29:04 ROUTE_GATEWAY 192.168.1.1/255.255.255.0 IFACE=enp7s0 HWADDR=70:85:c2:3c:6a:56
+2021-09-12 18:29:04 GDG6: remote_host_ipv6=n/a
+2021-09-12 18:29:04 net_route_v6_best_gw query: dst ::
+2021-09-12 18:29:04 sitnl_send: rtnl: generic error (-101): Network is unreachable
+2021-09-12 18:29:04 ROUTE6: default_gateway=UNDEF
+2021-09-12 18:29:04 TUN/TAP device tun0 opened
+2021-09-12 18:29:04 net_iface_mtu_set: mtu 1500 for tun0
+2021-09-12 18:29:04 net_iface_up: set tun0 up
+2021-09-12 18:29:04 net_addr_v4_add: 10.8.0.2/24 dev tun0
+2021-09-12 18:29:04 net_iface_mtu_set: mtu 1500 for tun0
+2021-09-12 18:29:04 net_iface_up: set tun0 up
+2021-09-12 18:29:04 net_addr_v6_add: fddd:1194:1194:1194::1000/64 dev tun0
+2021-09-12 18:29:04 net_route_v4_add: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:29:04 net_route_v4_add: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:29:04 net_route_v4_add: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:29:04 add_route_ipv6(::/3 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:29:04 net_route_v6_add: ::/3 via :: dev tun0 table 0 metric -1
+2021-09-12 18:29:04 add_route_ipv6(2000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:29:04 net_route_v6_add: 2000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:29:04 add_route_ipv6(3000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:29:04 net_route_v6_add: 3000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:29:04 add_route_ipv6(fc00::/7 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:29:04 net_route_v6_add: fc00::/7 via :: dev tun0 table 0 metric -1
+2021-09-12 18:29:04 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+2021-09-12 18:29:04 Initialization Sequence Completed
+2021-09-12 18:29:16 Unrecognized option or missing or extra parameter(s) in /home/nikita/docs/stuff/freerun.ovpn:13: block-outside-dns (2.5.3)
+2021-09-12 18:29:16 DEPRECATED OPTION: --cipher set to 'AES-256-CBC' but missing in --data-ciphers (AES-256-GCM:AES-128-GCM). Future OpenVPN version will ignore --cipher for cipher negotiations. Add 'AES-256-CBC' to --data-ciphers or change --cipher 'AES-256-CBC' to --data-ciphers-fallback 'AES-256-CBC' to silence this warning.
+2021-09-12 18:29:16 OpenVPN 2.5.3 [git:makepkg/ecaf88f8a4e75856+] x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Jun 18 2021
+2021-09-12 18:29:16 library versions: OpenSSL 1.1.1l  24 Aug 2021, LZO 2.10
+2021-09-12 18:29:16 Outgoing Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:29:16 Outgoing Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:29:16 Incoming Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:29:16 Incoming Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:29:16 TCP/UDP: Preserving recently used remote address: [AF_INET]95.216.20.142:20106
+2021-09-12 18:29:16 Socket Buffers: R=[212992->212992] S=[212992->212992]
+2021-09-12 18:29:16 UDP link local: (not bound)
+2021-09-12 18:29:16 UDP link remote: [AF_INET]95.216.20.142:20106
+2021-09-12 18:29:16 TLS: Initial packet from [AF_INET]95.216.20.142:20106, sid=d438fa2e 0b7adf4b
+2021-09-12 18:29:16 VERIFY OK: depth=1, CN=ChangeMe
+2021-09-12 18:29:16 VERIFY KU OK
+2021-09-12 18:29:16 Validating certificate extended key usage
+2021-09-12 18:29:16 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+2021-09-12 18:29:16 VERIFY EKU OK
+2021-09-12 18:29:16 VERIFY OK: depth=0, CN=server
+2021-09-12 18:29:16 Control Channel: TLSv1.2, cipher TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384, peer certificate: 2048 bit RSA, signature: RSA-SHA256
+2021-09-12 18:29:16 [server] Peer Connection Initiated with [AF_INET]95.216.20.142:20106
+2021-09-12 18:29:18 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+2021-09-12 18:29:18 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 ipv6 bypass-dhcp,dhcp-option DNS 1.1.1.1,dhcp-option DNS 1.0.0.1,tun-ipv6,route-gateway 10.8.0.1,topology subnet,ping 10,ping-restart 120,ifconfig-ipv6 fddd:1194:1194:1194::1000/64 fddd:1194:1194:1194::1,ifconfig 10.8.0.2 255.255.255.0,peer-id 0,cipher AES-256-GCM'
+2021-09-12 18:29:18 OPTIONS IMPORT: timers and/or timeouts modified
+2021-09-12 18:29:18 OPTIONS IMPORT: --ifconfig/up options modified
+2021-09-12 18:29:18 OPTIONS IMPORT: route options modified
+2021-09-12 18:29:18 OPTIONS IMPORT: route-related options modified
+2021-09-12 18:29:18 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+2021-09-12 18:29:18 OPTIONS IMPORT: peer-id set
+2021-09-12 18:29:18 OPTIONS IMPORT: adjusting link_mtu to 1624
+2021-09-12 18:29:18 OPTIONS IMPORT: data channel crypto options modified
+2021-09-12 18:29:18 Data Channel: using negotiated cipher 'AES-256-GCM'
+2021-09-12 18:29:18 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:29:18 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:29:18 net_route_v4_best_gw query: dst 0.0.0.0
+2021-09-12 18:29:18 net_route_v4_best_gw result: via 192.168.1.1 dev enp7s0
+2021-09-12 18:29:18 ROUTE_GATEWAY 192.168.1.1/255.255.255.0 IFACE=enp7s0 HWADDR=70:85:c2:3c:6a:56
+2021-09-12 18:29:18 GDG6: remote_host_ipv6=n/a
+2021-09-12 18:29:18 net_route_v6_best_gw query: dst ::
+2021-09-12 18:29:18 net_route_v6_best_gw result: via :: dev tun0
+2021-09-12 18:29:18 ROUTE6_GATEWAY :: ON_LINK IFACE=tun0
+2021-09-12 18:29:18 TUN/TAP device tun1 opened
+2021-09-12 18:29:18 net_iface_mtu_set: mtu 1500 for tun1
+2021-09-12 18:29:18 net_iface_up: set tun1 up
+2021-09-12 18:29:18 net_addr_v4_add: 10.8.0.2/24 dev tun1
+2021-09-12 18:29:18 net_iface_mtu_set: mtu 1500 for tun1
+2021-09-12 18:29:18 net_iface_up: set tun1 up
+2021-09-12 18:29:18 net_addr_v6_add: fddd:1194:1194:1194::1000/64 dev tun1
+2021-09-12 18:29:18 net_route_v4_add: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:29:18 net_route_v4_add: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:29:18 net_route_v4_add: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:29:18 add_route_ipv6(::/3 -> fddd:1194:1194:1194::1 metric -1) dev tun1
+2021-09-12 18:29:18 net_route_v6_add: ::/3 via :: dev tun1 table 0 metric -1
+2021-09-12 18:29:18 add_route_ipv6(2000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun1
+2021-09-12 18:29:18 net_route_v6_add: 2000::/4 via :: dev tun1 table 0 metric -1
+2021-09-12 18:29:18 add_route_ipv6(3000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun1
+2021-09-12 18:29:18 net_route_v6_add: 3000::/4 via :: dev tun1 table 0 metric -1
+2021-09-12 18:29:18 add_route_ipv6(fc00::/7 -> fddd:1194:1194:1194::1 metric -1) dev tun1
+2021-09-12 18:29:18 net_route_v6_add: fc00::/7 via :: dev tun1 table 0 metric -1
+2021-09-12 18:29:18 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+2021-09-12 18:29:18 Initialization Sequence Completed
+2021-09-12 18:29:43 event_wait : Interrupted system call (code=4)
+2021-09-12 18:29:43 event_wait : Interrupted system call (code=4)
+2021-09-12 18:29:43 net_route_v4_del: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:29:43 net_route_v4_del: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:29:43 net_route_v4_del: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:29:43 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:29:43 ERROR: Linux route delete command failed
+2021-09-12 18:29:43 net_route_v4_del: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:29:43 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:29:43 ERROR: Linux route delete command failed
+2021-09-12 18:29:43 net_route_v4_del: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:29:43 delete_route_ipv6(::/3)
+2021-09-12 18:29:43 net_route_v6_del: ::/3 via :: dev tun0 table 0 metric -1
+2021-09-12 18:29:43 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:29:43 ERROR: Linux route v6 delete command failed
+2021-09-12 18:29:43 delete_route_ipv6(2000::/4)
+2021-09-12 18:29:43 net_route_v6_del: 2000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:29:43 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:29:43 ERROR: Linux route v6 delete command failed
+2021-09-12 18:29:43 delete_route_ipv6(3000::/4)
+2021-09-12 18:29:43 net_route_v6_del: 3000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:29:43 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:29:43 ERROR: Linux route v6 delete command failed
+2021-09-12 18:29:43 delete_route_ipv6(fc00::/7)
+2021-09-12 18:29:43 net_route_v6_del: fc00::/7 via :: dev tun0 table 0 metric -1
+2021-09-12 18:29:43 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:29:43 ERROR: Linux route v6 delete command failed
+2021-09-12 18:29:43 Closing TUN/TAP interface
+2021-09-12 18:29:43 net_addr_v4_del: 10.8.0.2 dev tun0
+2021-09-12 18:29:43 net_addr_v6_del: fddd:1194:1194:1194::1000/64 dev tun0
+2021-09-12 18:29:43 net_route_v4_del: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:29:43 sitnl_send: rtnl: generic error (-3): No such process
+2021-09-12 18:29:43 ERROR: Linux route delete command failed
+2021-09-12 18:29:43 delete_route_ipv6(::/3)
+2021-09-12 18:29:43 net_route_v6_del: ::/3 via :: dev tun1 table 0 metric -1
+2021-09-12 18:29:43 delete_route_ipv6(2000::/4)
+2021-09-12 18:29:43 net_route_v6_del: 2000::/4 via :: dev tun1 table 0 metric -1
+2021-09-12 18:29:43 delete_route_ipv6(3000::/4)
+2021-09-12 18:29:43 net_route_v6_del: 3000::/4 via :: dev tun1 table 0 metric -1
+2021-09-12 18:29:43 delete_route_ipv6(fc00::/7)
+2021-09-12 18:29:43 net_route_v6_del: fc00::/7 via :: dev tun1 table 0 metric -1
+2021-09-12 18:29:43 Closing TUN/TAP interface
+2021-09-12 18:29:43 net_addr_v4_del: 10.8.0.2 dev tun1
+2021-09-12 18:29:43 net_addr_v6_del: fddd:1194:1194:1194::1000/64 dev tun1
+2021-09-12 18:29:43 SIGTERM[hard,] received, process exiting
+2021-09-12 18:29:43 SIGTERM[hard,] received, process exiting
+2021-09-12 18:34:21 Unrecognized option or missing or extra parameter(s) in /home/nikita/docs/stuff/freerun.ovpn:13: block-outside-dns (2.5.3)
+2021-09-12 18:34:21 DEPRECATED OPTION: --cipher set to 'AES-256-CBC' but missing in --data-ciphers (AES-256-GCM:AES-128-GCM). Future OpenVPN version will ignore --cipher for cipher negotiations. Add 'AES-256-CBC' to --data-ciphers or change --cipher 'AES-256-CBC' to --data-ciphers-fallback 'AES-256-CBC' to silence this warning.
+2021-09-12 18:34:21 OpenVPN 2.5.3 [git:makepkg/ecaf88f8a4e75856+] x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Jun 18 2021
+2021-09-12 18:34:21 library versions: OpenSSL 1.1.1l  24 Aug 2021, LZO 2.10
+2021-09-12 18:34:21 Outgoing Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:34:21 Outgoing Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:34:21 Incoming Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:34:21 Incoming Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:34:21 TCP/UDP: Preserving recently used remote address: [AF_INET]95.216.20.142:20106
+2021-09-12 18:34:21 Socket Buffers: R=[212992->212992] S=[212992->212992]
+2021-09-12 18:34:21 UDP link local: (not bound)
+2021-09-12 18:34:21 UDP link remote: [AF_INET]95.216.20.142:20106
+2021-09-12 18:34:21 TLS: Initial packet from [AF_INET]95.216.20.142:20106, sid=76af9af0 203a1c7d
+2021-09-12 18:34:21 VERIFY OK: depth=1, CN=ChangeMe
+2021-09-12 18:34:21 VERIFY KU OK
+2021-09-12 18:34:21 Validating certificate extended key usage
+2021-09-12 18:34:21 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+2021-09-12 18:34:21 VERIFY EKU OK
+2021-09-12 18:34:21 VERIFY OK: depth=0, CN=server
+2021-09-12 18:34:21 Control Channel: TLSv1.2, cipher TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384, peer certificate: 2048 bit RSA, signature: RSA-SHA256
+2021-09-12 18:34:21 [server] Peer Connection Initiated with [AF_INET]95.216.20.142:20106
+2021-09-12 18:34:22 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+2021-09-12 18:34:22 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 ipv6 bypass-dhcp,dhcp-option DNS 1.1.1.1,dhcp-option DNS 1.0.0.1,tun-ipv6,route-gateway 10.8.0.1,topology subnet,ping 10,ping-restart 120,ifconfig-ipv6 fddd:1194:1194:1194::1000/64 fddd:1194:1194:1194::1,ifconfig 10.8.0.2 255.255.255.0,peer-id 0,cipher AES-256-GCM'
+2021-09-12 18:34:22 OPTIONS IMPORT: timers and/or timeouts modified
+2021-09-12 18:34:22 OPTIONS IMPORT: --ifconfig/up options modified
+2021-09-12 18:34:22 OPTIONS IMPORT: route options modified
+2021-09-12 18:34:22 OPTIONS IMPORT: route-related options modified
+2021-09-12 18:34:22 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+2021-09-12 18:34:22 OPTIONS IMPORT: peer-id set
+2021-09-12 18:34:22 OPTIONS IMPORT: adjusting link_mtu to 1624
+2021-09-12 18:34:22 OPTIONS IMPORT: data channel crypto options modified
+2021-09-12 18:34:22 Data Channel: using negotiated cipher 'AES-256-GCM'
+2021-09-12 18:34:22 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:34:22 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:34:22 net_route_v4_best_gw query: dst 0.0.0.0
+2021-09-12 18:34:22 net_route_v4_best_gw result: via 192.168.1.1 dev enp7s0
+2021-09-12 18:34:22 ROUTE_GATEWAY 192.168.1.1/255.255.255.0 IFACE=enp7s0 HWADDR=70:85:c2:3c:6a:56
+2021-09-12 18:34:22 GDG6: remote_host_ipv6=n/a
+2021-09-12 18:34:22 net_route_v6_best_gw query: dst ::
+2021-09-12 18:34:22 sitnl_send: rtnl: generic error (-101): Network is unreachable
+2021-09-12 18:34:22 ROUTE6: default_gateway=UNDEF
+2021-09-12 18:34:22 TUN/TAP device tun0 opened
+2021-09-12 18:34:22 net_iface_mtu_set: mtu 1500 for tun0
+2021-09-12 18:34:22 net_iface_up: set tun0 up
+2021-09-12 18:34:22 net_addr_v4_add: 10.8.0.2/24 dev tun0
+2021-09-12 18:34:22 net_iface_mtu_set: mtu 1500 for tun0
+2021-09-12 18:34:22 net_iface_up: set tun0 up
+2021-09-12 18:34:22 net_addr_v6_add: fddd:1194:1194:1194::1000/64 dev tun0
+2021-09-12 18:34:22 net_route_v4_add: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:34:22 net_route_v4_add: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:34:22 net_route_v4_add: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:34:22 add_route_ipv6(::/3 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:34:22 net_route_v6_add: ::/3 via :: dev tun0 table 0 metric -1
+2021-09-12 18:34:22 add_route_ipv6(2000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:34:22 net_route_v6_add: 2000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:34:22 add_route_ipv6(3000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:34:22 net_route_v6_add: 3000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:34:22 add_route_ipv6(fc00::/7 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:34:22 net_route_v6_add: fc00::/7 via :: dev tun0 table 0 metric -1
+2021-09-12 18:34:22 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+2021-09-12 18:34:22 Initialization Sequence Completed
+2021-09-12 18:35:15 event_wait : Interrupted system call (code=4)
+2021-09-12 18:35:15 net_route_v4_del: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:35:15 net_route_v4_del: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:35:15 net_route_v4_del: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:35:15 delete_route_ipv6(::/3)
+2021-09-12 18:35:15 net_route_v6_del: ::/3 via :: dev tun0 table 0 metric -1
+2021-09-12 18:35:15 delete_route_ipv6(2000::/4)
+2021-09-12 18:35:15 net_route_v6_del: 2000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:35:15 delete_route_ipv6(3000::/4)
+2021-09-12 18:35:15 net_route_v6_del: 3000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:35:15 delete_route_ipv6(fc00::/7)
+2021-09-12 18:35:15 net_route_v6_del: fc00::/7 via :: dev tun0 table 0 metric -1
+2021-09-12 18:35:15 Closing TUN/TAP interface
+2021-09-12 18:35:15 net_addr_v4_del: 10.8.0.2 dev tun0
+2021-09-12 18:35:15 net_addr_v6_del: fddd:1194:1194:1194::1000/64 dev tun0
+2021-09-12 18:35:15 SIGTERM[hard,] received, process exiting
+2021-09-12 18:36:23 Unrecognized option or missing or extra parameter(s) in /home/nikita/docs/stuff/freerun.ovpn:13: block-outside-dns (2.5.3)
+2021-09-12 18:36:23 DEPRECATED OPTION: --cipher set to 'AES-256-CBC' but missing in --data-ciphers (AES-256-GCM:AES-128-GCM). Future OpenVPN version will ignore --cipher for cipher negotiations. Add 'AES-256-CBC' to --data-ciphers or change --cipher 'AES-256-CBC' to --data-ciphers-fallback 'AES-256-CBC' to silence this warning.
+2021-09-12 18:36:23 OpenVPN 2.5.3 [git:makepkg/ecaf88f8a4e75856+] x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Jun 18 2021
+2021-09-12 18:36:23 library versions: OpenSSL 1.1.1l  24 Aug 2021, LZO 2.10
+2021-09-12 18:36:23 Outgoing Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:36:23 Outgoing Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:36:23 Incoming Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:36:23 Incoming Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:36:23 TCP/UDP: Preserving recently used remote address: [AF_INET]95.216.20.142:20106
+2021-09-12 18:36:23 Socket Buffers: R=[212992->212992] S=[212992->212992]
+2021-09-12 18:36:23 UDP link local: (not bound)
+2021-09-12 18:36:23 UDP link remote: [AF_INET]95.216.20.142:20106
+2021-09-12 18:36:23 TLS: Initial packet from [AF_INET]95.216.20.142:20106, sid=e2f92638 e2062a97
+2021-09-12 18:36:23 VERIFY OK: depth=1, CN=ChangeMe
+2021-09-12 18:36:23 VERIFY KU OK
+2021-09-12 18:36:23 Validating certificate extended key usage
+2021-09-12 18:36:23 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+2021-09-12 18:36:23 VERIFY EKU OK
+2021-09-12 18:36:23 VERIFY OK: depth=0, CN=server
+2021-09-12 18:36:23 Control Channel: TLSv1.2, cipher TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384, peer certificate: 2048 bit RSA, signature: RSA-SHA256
+2021-09-12 18:36:23 [server] Peer Connection Initiated with [AF_INET]95.216.20.142:20106
+2021-09-12 18:36:24 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+2021-09-12 18:36:24 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 ipv6 bypass-dhcp,dhcp-option DNS 1.1.1.1,dhcp-option DNS 1.0.0.1,tun-ipv6,route-gateway 10.8.0.1,topology subnet,ping 10,ping-restart 120,ifconfig-ipv6 fddd:1194:1194:1194::1000/64 fddd:1194:1194:1194::1,ifconfig 10.8.0.2 255.255.255.0,peer-id 1,cipher AES-256-GCM'
+2021-09-12 18:36:24 OPTIONS IMPORT: timers and/or timeouts modified
+2021-09-12 18:36:24 OPTIONS IMPORT: --ifconfig/up options modified
+2021-09-12 18:36:24 OPTIONS IMPORT: route options modified
+2021-09-12 18:36:24 OPTIONS IMPORT: route-related options modified
+2021-09-12 18:36:24 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+2021-09-12 18:36:24 OPTIONS IMPORT: peer-id set
+2021-09-12 18:36:24 OPTIONS IMPORT: adjusting link_mtu to 1624
+2021-09-12 18:36:24 OPTIONS IMPORT: data channel crypto options modified
+2021-09-12 18:36:24 Data Channel: using negotiated cipher 'AES-256-GCM'
+2021-09-12 18:36:24 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:36:24 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:36:24 net_route_v4_best_gw query: dst 0.0.0.0
+2021-09-12 18:36:24 net_route_v4_best_gw result: via 192.168.1.1 dev enp7s0
+2021-09-12 18:36:24 ROUTE_GATEWAY 192.168.1.1/255.255.255.0 IFACE=enp7s0 HWADDR=70:85:c2:3c:6a:56
+2021-09-12 18:36:24 GDG6: remote_host_ipv6=n/a
+2021-09-12 18:36:24 net_route_v6_best_gw query: dst ::
+2021-09-12 18:36:24 sitnl_send: rtnl: generic error (-101): Network is unreachable
+2021-09-12 18:36:24 ROUTE6: default_gateway=UNDEF
+2021-09-12 18:36:24 TUN/TAP device tun0 opened
+2021-09-12 18:36:24 net_iface_mtu_set: mtu 1500 for tun0
+2021-09-12 18:36:24 net_iface_up: set tun0 up
+2021-09-12 18:36:24 net_addr_v4_add: 10.8.0.2/24 dev tun0
+2021-09-12 18:36:24 net_iface_mtu_set: mtu 1500 for tun0
+2021-09-12 18:36:24 net_iface_up: set tun0 up
+2021-09-12 18:36:24 net_addr_v6_add: fddd:1194:1194:1194::1000/64 dev tun0
+2021-09-12 18:36:24 net_route_v4_add: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:36:24 net_route_v4_add: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:36:24 net_route_v4_add: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:36:24 add_route_ipv6(::/3 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:36:24 net_route_v6_add: ::/3 via :: dev tun0 table 0 metric -1
+2021-09-12 18:36:24 add_route_ipv6(2000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:36:24 net_route_v6_add: 2000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:36:24 add_route_ipv6(3000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:36:24 net_route_v6_add: 3000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:36:24 add_route_ipv6(fc00::/7 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:36:24 net_route_v6_add: fc00::/7 via :: dev tun0 table 0 metric -1
+2021-09-12 18:36:24 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+2021-09-12 18:36:24 Initialization Sequence Completed
+2021-09-12 18:36:38 event_wait : Interrupted system call (code=4)
+2021-09-12 18:36:38 net_route_v4_del: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:36:38 net_route_v4_del: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:36:38 net_route_v4_del: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:36:38 delete_route_ipv6(::/3)
+2021-09-12 18:36:38 net_route_v6_del: ::/3 via :: dev tun0 table 0 metric -1
+2021-09-12 18:36:38 delete_route_ipv6(2000::/4)
+2021-09-12 18:36:38 net_route_v6_del: 2000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:36:38 delete_route_ipv6(3000::/4)
+2021-09-12 18:36:38 net_route_v6_del: 3000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:36:38 delete_route_ipv6(fc00::/7)
+2021-09-12 18:36:38 net_route_v6_del: fc00::/7 via :: dev tun0 table 0 metric -1
+2021-09-12 18:36:38 Closing TUN/TAP interface
+2021-09-12 18:36:38 net_addr_v4_del: 10.8.0.2 dev tun0
+2021-09-12 18:36:38 net_addr_v6_del: fddd:1194:1194:1194::1000/64 dev tun0
+2021-09-12 18:36:38 SIGTERM[hard,] received, process exiting
+2021-09-12 18:38:38 Unrecognized option or missing or extra parameter(s) in /home/nikita/docs/stuff/freerun.ovpn:13: block-outside-dns (2.5.3)
+2021-09-12 18:38:38 DEPRECATED OPTION: --cipher set to 'AES-256-CBC' but missing in --data-ciphers (AES-256-GCM:AES-128-GCM). Future OpenVPN version will ignore --cipher for cipher negotiations. Add 'AES-256-CBC' to --data-ciphers or change --cipher 'AES-256-CBC' to --data-ciphers-fallback 'AES-256-CBC' to silence this warning.
+2021-09-12 18:38:38 OpenVPN 2.5.3 [git:makepkg/ecaf88f8a4e75856+] x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Jun 18 2021
+2021-09-12 18:38:38 library versions: OpenSSL 1.1.1l  24 Aug 2021, LZO 2.10
+2021-09-12 18:38:38 Outgoing Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:38:38 Outgoing Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:38:38 Incoming Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 18:38:38 Incoming Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 18:38:38 TCP/UDP: Preserving recently used remote address: [AF_INET]95.216.20.142:20106
+2021-09-12 18:38:38 Socket Buffers: R=[212992->212992] S=[212992->212992]
+2021-09-12 18:38:38 UDP link local: (not bound)
+2021-09-12 18:38:38 UDP link remote: [AF_INET]95.216.20.142:20106
+2021-09-12 18:38:38 TLS: Initial packet from [AF_INET]95.216.20.142:20106, sid=32fe17f5 cf796b55
+2021-09-12 18:38:38 VERIFY OK: depth=1, CN=ChangeMe
+2021-09-12 18:38:38 VERIFY KU OK
+2021-09-12 18:38:38 Validating certificate extended key usage
+2021-09-12 18:38:38 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+2021-09-12 18:38:38 VERIFY EKU OK
+2021-09-12 18:38:38 VERIFY OK: depth=0, CN=server
+2021-09-12 18:38:38 Control Channel: TLSv1.2, cipher TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384, peer certificate: 2048 bit RSA, signature: RSA-SHA256
+2021-09-12 18:38:38 [server] Peer Connection Initiated with [AF_INET]95.216.20.142:20106
+2021-09-12 18:38:39 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+2021-09-12 18:38:39 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 ipv6 bypass-dhcp,dhcp-option DNS 1.1.1.1,dhcp-option DNS 1.0.0.1,tun-ipv6,route-gateway 10.8.0.1,topology subnet,ping 10,ping-restart 120,ifconfig-ipv6 fddd:1194:1194:1194::1000/64 fddd:1194:1194:1194::1,ifconfig 10.8.0.2 255.255.255.0,peer-id 0,cipher AES-256-GCM'
+2021-09-12 18:38:39 OPTIONS IMPORT: timers and/or timeouts modified
+2021-09-12 18:38:39 OPTIONS IMPORT: --ifconfig/up options modified
+2021-09-12 18:38:39 OPTIONS IMPORT: route options modified
+2021-09-12 18:38:39 OPTIONS IMPORT: route-related options modified
+2021-09-12 18:38:39 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+2021-09-12 18:38:39 OPTIONS IMPORT: peer-id set
+2021-09-12 18:38:39 OPTIONS IMPORT: adjusting link_mtu to 1624
+2021-09-12 18:38:39 OPTIONS IMPORT: data channel crypto options modified
+2021-09-12 18:38:39 Data Channel: using negotiated cipher 'AES-256-GCM'
+2021-09-12 18:38:39 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:38:39 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 18:38:39 net_route_v4_best_gw query: dst 0.0.0.0
+2021-09-12 18:38:39 net_route_v4_best_gw result: via 192.168.1.1 dev enp7s0
+2021-09-12 18:38:39 ROUTE_GATEWAY 192.168.1.1/255.255.255.0 IFACE=enp7s0 HWADDR=70:85:c2:3c:6a:56
+2021-09-12 18:38:39 GDG6: remote_host_ipv6=n/a
+2021-09-12 18:38:39 net_route_v6_best_gw query: dst ::
+2021-09-12 18:38:39 sitnl_send: rtnl: generic error (-101): Network is unreachable
+2021-09-12 18:38:39 ROUTE6: default_gateway=UNDEF
+2021-09-12 18:38:39 TUN/TAP device tun0 opened
+2021-09-12 18:38:39 net_iface_mtu_set: mtu 1500 for tun0
+2021-09-12 18:38:39 net_iface_up: set tun0 up
+2021-09-12 18:38:39 net_addr_v4_add: 10.8.0.2/24 dev tun0
+2021-09-12 18:38:39 net_iface_mtu_set: mtu 1500 for tun0
+2021-09-12 18:38:39 net_iface_up: set tun0 up
+2021-09-12 18:38:39 net_addr_v6_add: fddd:1194:1194:1194::1000/64 dev tun0
+2021-09-12 18:38:39 net_route_v4_add: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:38:39 net_route_v4_add: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:38:39 net_route_v4_add: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:38:39 add_route_ipv6(::/3 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:38:39 net_route_v6_add: ::/3 via :: dev tun0 table 0 metric -1
+2021-09-12 18:38:39 add_route_ipv6(2000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:38:39 net_route_v6_add: 2000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:38:39 add_route_ipv6(3000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:38:39 net_route_v6_add: 3000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:38:39 add_route_ipv6(fc00::/7 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 18:38:39 net_route_v6_add: fc00::/7 via :: dev tun0 table 0 metric -1
+2021-09-12 18:38:39 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+2021-09-12 18:38:39 Initialization Sequence Completed
+2021-09-12 18:38:42 event_wait : Interrupted system call (code=4)
+2021-09-12 18:38:42 net_route_v4_del: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 18:38:42 net_route_v4_del: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:38:42 net_route_v4_del: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 18:38:42 delete_route_ipv6(::/3)
+2021-09-12 18:38:42 net_route_v6_del: ::/3 via :: dev tun0 table 0 metric -1
+2021-09-12 18:38:42 delete_route_ipv6(2000::/4)
+2021-09-12 18:38:42 net_route_v6_del: 2000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:38:42 delete_route_ipv6(3000::/4)
+2021-09-12 18:38:42 net_route_v6_del: 3000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 18:38:42 delete_route_ipv6(fc00::/7)
+2021-09-12 18:38:42 net_route_v6_del: fc00::/7 via :: dev tun0 table 0 metric -1
+2021-09-12 18:38:42 Closing TUN/TAP interface
+2021-09-12 18:38:42 net_addr_v4_del: 10.8.0.2 dev tun0
+2021-09-12 18:38:42 net_addr_v6_del: fddd:1194:1194:1194::1000/64 dev tun0
+2021-09-12 18:38:42 SIGTERM[hard,] received, process exiting
+2021-09-12 19:12:17 Unrecognized option or missing or extra parameter(s) in /home/nikita/docs/stuff/freerun.ovpn:13: block-outside-dns (2.5.3)
+2021-09-12 19:12:17 DEPRECATED OPTION: --cipher set to 'AES-256-CBC' but missing in --data-ciphers (AES-256-GCM:AES-128-GCM). Future OpenVPN version will ignore --cipher for cipher negotiations. Add 'AES-256-CBC' to --data-ciphers or change --cipher 'AES-256-CBC' to --data-ciphers-fallback 'AES-256-CBC' to silence this warning.
+2021-09-12 19:12:17 OpenVPN 2.5.3 [git:makepkg/ecaf88f8a4e75856+] x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Jun 18 2021
+2021-09-12 19:12:17 library versions: OpenSSL 1.1.1l  24 Aug 2021, LZO 2.10
+2021-09-12 19:12:17 Outgoing Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 19:12:17 Outgoing Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 19:12:17 Incoming Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+2021-09-12 19:12:17 Incoming Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+2021-09-12 19:12:17 TCP/UDP: Preserving recently used remote address: [AF_INET]95.216.20.142:20106
+2021-09-12 19:12:17 Socket Buffers: R=[212992->212992] S=[212992->212992]
+2021-09-12 19:12:17 UDP link local: (not bound)
+2021-09-12 19:12:17 UDP link remote: [AF_INET]95.216.20.142:20106
+2021-09-12 19:12:17 TLS: Initial packet from [AF_INET]95.216.20.142:20106, sid=b72801d0 5a70de85
+2021-09-12 19:12:17 VERIFY OK: depth=1, CN=ChangeMe
+2021-09-12 19:12:17 VERIFY KU OK
+2021-09-12 19:12:17 Validating certificate extended key usage
+2021-09-12 19:12:17 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+2021-09-12 19:12:17 VERIFY EKU OK
+2021-09-12 19:12:17 VERIFY OK: depth=0, CN=server
+2021-09-12 19:12:17 Control Channel: TLSv1.2, cipher TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384, peer certificate: 2048 bit RSA, signature: RSA-SHA256
+2021-09-12 19:12:17 [server] Peer Connection Initiated with [AF_INET]95.216.20.142:20106
+2021-09-12 19:12:18 SENT CONTROL [server]: 'PUSH_REQUEST' (status=1)
+2021-09-12 19:12:18 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 ipv6 bypass-dhcp,dhcp-option DNS 1.1.1.1,dhcp-option DNS 1.0.0.1,tun-ipv6,route-gateway 10.8.0.1,topology subnet,ping 10,ping-restart 120,ifconfig-ipv6 fddd:1194:1194:1194::1000/64 fddd:1194:1194:1194::1,ifconfig 10.8.0.2 255.255.255.0,peer-id 0,cipher AES-256-GCM'
+2021-09-12 19:12:18 OPTIONS IMPORT: timers and/or timeouts modified
+2021-09-12 19:12:18 OPTIONS IMPORT: --ifconfig/up options modified
+2021-09-12 19:12:18 OPTIONS IMPORT: route options modified
+2021-09-12 19:12:18 OPTIONS IMPORT: route-related options modified
+2021-09-12 19:12:18 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+2021-09-12 19:12:18 OPTIONS IMPORT: peer-id set
+2021-09-12 19:12:18 OPTIONS IMPORT: adjusting link_mtu to 1624
+2021-09-12 19:12:18 OPTIONS IMPORT: data channel crypto options modified
+2021-09-12 19:12:18 Data Channel: using negotiated cipher 'AES-256-GCM'
+2021-09-12 19:12:18 Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 19:12:18 Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2021-09-12 19:12:18 net_route_v4_best_gw query: dst 0.0.0.0
+2021-09-12 19:12:18 net_route_v4_best_gw result: via 192.168.1.1 dev enp7s0
+2021-09-12 19:12:18 ROUTE_GATEWAY 192.168.1.1/255.255.255.0 IFACE=enp7s0 HWADDR=70:85:c2:3c:6a:56
+2021-09-12 19:12:18 GDG6: remote_host_ipv6=n/a
+2021-09-12 19:12:18 net_route_v6_best_gw query: dst ::
+2021-09-12 19:12:18 sitnl_send: rtnl: generic error (-101): Network is unreachable
+2021-09-12 19:12:18 ROUTE6: default_gateway=UNDEF
+2021-09-12 19:12:18 TUN/TAP device tun0 opened
+2021-09-12 19:12:18 net_iface_mtu_set: mtu 1500 for tun0
+2021-09-12 19:12:18 net_iface_up: set tun0 up
+2021-09-12 19:12:18 net_addr_v4_add: 10.8.0.2/24 dev tun0
+2021-09-12 19:12:18 net_iface_mtu_set: mtu 1500 for tun0
+2021-09-12 19:12:18 net_iface_up: set tun0 up
+2021-09-12 19:12:18 net_addr_v6_add: fddd:1194:1194:1194::1000/64 dev tun0
+2021-09-12 19:12:18 net_route_v4_add: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 19:12:18 net_route_v4_add: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 19:12:18 net_route_v4_add: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 19:12:18 add_route_ipv6(::/3 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 19:12:18 net_route_v6_add: ::/3 via :: dev tun0 table 0 metric -1
+2021-09-12 19:12:18 add_route_ipv6(2000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 19:12:18 net_route_v6_add: 2000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 19:12:18 add_route_ipv6(3000::/4 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 19:12:18 net_route_v6_add: 3000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 19:12:18 add_route_ipv6(fc00::/7 -> fddd:1194:1194:1194::1 metric -1) dev tun0
+2021-09-12 19:12:18 net_route_v6_add: fc00::/7 via :: dev tun0 table 0 metric -1
+2021-09-12 19:12:18 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+2021-09-12 19:12:18 Initialization Sequence Completed
+2021-09-12 19:12:32 event_wait : Interrupted system call (code=4)
+2021-09-12 19:12:32 net_route_v4_del: 95.216.20.142/32 via 192.168.1.1 dev [NULL] table 0 metric -1
+2021-09-12 19:12:32 net_route_v4_del: 0.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 19:12:32 net_route_v4_del: 128.0.0.0/1 via 10.8.0.1 dev [NULL] table 0 metric -1
+2021-09-12 19:12:32 delete_route_ipv6(::/3)
+2021-09-12 19:12:32 net_route_v6_del: ::/3 via :: dev tun0 table 0 metric -1
+2021-09-12 19:12:32 delete_route_ipv6(2000::/4)
+2021-09-12 19:12:32 net_route_v6_del: 2000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 19:12:32 delete_route_ipv6(3000::/4)
+2021-09-12 19:12:32 net_route_v6_del: 3000::/4 via :: dev tun0 table 0 metric -1
+2021-09-12 19:12:32 delete_route_ipv6(fc00::/7)
+2021-09-12 19:12:32 net_route_v6_del: fc00::/7 via :: dev tun0 table 0 metric -1
+2021-09-12 19:12:32 Closing TUN/TAP interface
+2021-09-12 19:12:32 net_addr_v4_del: 10.8.0.2 dev tun0
+2021-09-12 19:12:32 net_addr_v6_del: fddd:1194:1194:1194::1000/64 dev tun0
+2021-09-12 19:12:32 SIGTERM[hard,] received, process exiting

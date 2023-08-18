@@ -1,0 +1,7 @@
+if [[ $(xset -q | sed -rn 's/.*LED mask.*(.)[[:xdigit:]]{3}$/\1/p') -eq "1" ]]; then
+	LAYOUT="RU"
+#elif [[ $(xset -q | sed -rn 's/.*LED mask.*(.)[[:xdigit:]]{3}$/\1/p') -eq "0" ]]; then
+else
+	LAYOUT="EN"
+fi
+echo $LAYOUT

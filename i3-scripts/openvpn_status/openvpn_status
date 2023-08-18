@@ -1,0 +1,18 @@
+status=$( ps -e | grep openvpn )
+
+#if [[ ! -z $status ]] ; then
+#	connect=true
+#fi
+# [[ ! -z $BUTTON_CLICK ]]
+if [[ -z $status ]] ; then
+	full_text="vpn NO"
+	color=#FFFFFF
+elif [[ ! -z $status ]] ; then 
+	full_text="vpn YES"
+	color=#FF0000
+fi
+
+cat << EOF
+{"full_text":"$full_text",\
+"color":"$color"}
+EOF
